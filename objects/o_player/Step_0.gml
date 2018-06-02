@@ -29,4 +29,4 @@ if keyboard_check(vk_down) && !place_meeting(x, y+speed_, o_solid) {
 	image_xscale = 1
 }
 
-sprite_index = sprite_[player.move, direction_facing_];
+sprite_index = sprite_[player.move, direction_facing_];		// prendo e uso lo sprite che si chiama come valore salvato in sprite_[player.move, direction_facing_]
