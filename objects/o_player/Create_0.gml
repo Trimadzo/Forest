@@ -2,15 +2,41 @@ image_speed = 0;
 speed_ = 2;								// è una variabile accessibile solo all'interno dell'oggetto (i.e. instance variable)
 global.player_health = 4;				// è una global variable, sono accessibile ovunque all'interno del gioco
 
-//inventory_[0] = "sword";				// array chiamato inventory_ alla cui posizione 0 ha "sword"
+enum player {
+	move
+}
+
+enum dir {								// è importante questo ordine perché se moltiplichiamo per 90 otteniamo le direzione di GameMaker
+	right,
+	up,
+	left,
+	down
+}
+
+//inventory_[0] = "sword";				// array 1D chiamato inventory_ alla cui posizione 0 ha "sword"
 //inventory_[1] = "potion";
-//inventory_[2] = "magic spell";
+//inventory_[2] = "spell";
+//inventory_[3] = "note";
 
 //show_message(inventory_[1]);			// mostra "potion"
 
-inventory_[0, 0] = "sword";				// array 2D chiamato inventory_ alla cui posizione 0 ha "sword"
-inventory_[1, 0] = "potion";
-inventory_[0, 1] = "magic spell";
-inventory_[1, 1] = "note";
+//inventory_[0, 0] = "sword";			// array 2D chiamato inventory_ alla cui posizione 0 ha "sword"
+//inventory_[1, 0] = "potion";
+//inventory_[0, 1] = "spell";
+//inventory_[1, 1] = "note";
 
-show_message(inventory_[0, 1]);
+//show_message(inventory_[0, 1]);
+
+//enum item {							// enum è global variable che può contenere solo int
+//	sword,								// senza numeri conta da 0, ma se metto sword = 10 conta da 10 (i.e. spell è 12)
+//	potion,								
+//	spell,
+//	note
+//}
+
+//inventory_[item.sword] = "sword";		// array 1D chiamato inventory_ alla cui posizione 0 ha "sword"
+//inventory_[item.potion] = "potion";
+//inventory_[item.spell] = "spell";
+//inventory_[item.note] = "note";
+
+//show_message(inventory_[item.spell]);
