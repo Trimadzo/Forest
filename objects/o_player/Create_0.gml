@@ -1,5 +1,7 @@
+initialize_movement_entity(0.5, 1, o_solid);
 image_speed = 0;
-speed_ = 2;									// è una variabile accessibile solo all'interno dell'oggetto (i.e. instance variable)
+acceleration_ = 0.5;									// è una variabile accessibile solo all'interno dell'oggetto (i.e. instance variable)
+max_speed_ = 1.5;
 direction_facing_ = dir.right;
 global.player_health = 4;					// è una global variable, sono accessibile ovunque all'interno del gioco
 
