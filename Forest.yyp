@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5608a0b3-ed22-4d95-ac7e-29adaeb84022",
+            "Value": {
+                "id": "b5d497c0-d30d-4c20-b792-7e8611baeab7",
+                "resourcePath": "views\\5608a0b3-ed22-4d95-ac7e-29adaeb84022.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5625f8c1-c532-402f-b4c1-9a88a10b3dff",
             "Value": {
                 "id": "fa778d41-ac1a-47e8-a37f-9fe1146e029b",
@@ -420,6 +428,14 @@
                 "id": "d294acbe-4ae6-4650-9e75-4ac8f791cc88",
                 "resourcePath": "tilesets\\t_dirtwall\\t_dirtwall.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "edd89d49-bf7d-432c-b34a-e64b87f185f1",
+            "Value": {
+                "id": "f831e225-93ff-48b2-88a4-59db8e3a0198",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
