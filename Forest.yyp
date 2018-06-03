@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1b269415-d5cd-48f9-82c1-c5d8bb4471d4",
+            "Value": {
+                "id": "a3c7c92c-eacd-4274-a5de-e21df55c8f3d",
+                "resourcePath": "sprites\\s_porcupine_hitbox\\s_porcupine_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1edb66c2-27bc-469a-98e1-693211b76801",
             "Value": {
                 "id": "e854c280-f499-4eee-8b57-1c22882c3607",
@@ -116,6 +124,14 @@
                 "id": "abb51dbc-c3b6-41e2-9828-ada3ca4e2457",
                 "resourcePath": "views\\333fa96c-fae5-45c1-9234-78be7ee9800e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3592c383-a15e-45bd-ad77-9b4239b241c6",
+            "Value": {
+                "id": "151473e9-0ede-4b70-ba91-234c0eb0f1be",
+                "resourcePath": "scripts\\is_target\\is_target.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "585c222a-4bcd-4bb0-9a07-34bc42062c72",
+            "Value": {
+                "id": "9c077ec3-883e-4d91-86f0-5fe7fc038834",
+                "resourcePath": "scripts\\hurtbox_entity_can_be_hit_by\\hurtbox_entity_can_be_hit_by.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "60cd0fb3-1a56-4b7d-9d7d-891dbfab609c",
             "Value": {
                 "id": "08065eac-af30-48c5-b983-71473c8c0d2c",
@@ -276,6 +300,14 @@
                 "id": "6038c57e-b016-4efc-a8c7-fd9aa9271f9f",
                 "resourcePath": "views\\6de07764-5fc9-47a6-a9ce-c1e895401a95.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6de0df2f-565c-48c6-bab1-a86e10caee21",
+            "Value": {
+                "id": "d8d89f78-3b57-4700-a256-f96919b50428",
+                "resourcePath": "scripts\\initialize_hurtbox_entity\\initialize_hurtbox_entity.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -348,6 +380,14 @@
                 "id": "eb9bf0ec-3508-4433-8870-e8e283d1feb1",
                 "resourcePath": "views\\96701324-2ab7-4378-894b-7fc7503fb0a7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99978b79-ffad-442e-85c8-2fb33984f46f",
+            "Value": {
+                "id": "a64253f1-19bf-43f6-aaeb-fbd9ae80f051",
+                "resourcePath": "sprites\\s_porcupine_attack\\s_porcupine_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +503,14 @@
             }
         },
         {
+            "Key": "f3051765-5a4c-40af-ad7b-e043717f5f29",
+            "Value": {
+                "id": "7da1f9df-9680-48fc-8cee-717450aa01bc",
+                "resourcePath": "views\\f3051765-5a4c-40af-ad7b-e043717f5f29.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f31bf1db-3bbc-4412-b8e4-a171f98d7053",
             "Value": {
                 "id": "15c5e0b5-7f7c-4002-b554-e73742deb0cc",
@@ -476,6 +524,14 @@
                 "id": "4ef15618-8c81-49c9-a909-b113e31de339",
                 "resourcePath": "sprites\\s_player_roll_up\\s_player_roll_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f57abf5a-e986-45e9-b6bf-5f838626dea8",
+            "Value": {
+                "id": "465f9a3b-a9b8-4853-815f-8e9eacb31768",
+                "resourcePath": "scripts\\porcupine_attack\\porcupine_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -504,6 +560,8 @@
         }
     ],
     "script_order": [
+        "a452fe51-eff6-4b8d-be19-4a97a29ab8b6",
+        "f57abf5a-e986-45e9-b6bf-5f838626dea8",
         "8f675b5e-6a22-436c-8538-731d85a8e48e",
         "542fea2c-0d7c-4c8f-a2db-ad0611b48a4d",
         "60cd0fb3-1a56-4b7d-9d7d-891dbfab609c",
@@ -511,8 +569,10 @@
         "dad766d3-8551-4dff-848d-62e72499fa64",
         "21f59bf4-7b23-4c92-adec-9e0105c6cb77",
         "f949ec27-661a-4d63-842c-95e0284c8926",
-        "a452fe51-eff6-4b8d-be19-4a97a29ab8b6",
-        "6d419215-3c64-466b-9319-bd0aa1707c71"
+        "6d419215-3c64-466b-9319-bd0aa1707c71",
+        "3592c383-a15e-45bd-ad77-9b4239b241c6",
+        "6de0df2f-565c-48c6-bab1-a86e10caee21",
+        "585c222a-4bcd-4bb0-9a07-34bc42062c72"
     ],
     "tutorial": ""
 }
