@@ -119,6 +119,22 @@
             }
         },
         {
+            "Key": "3855d6bf-9f6b-4196-82df-5b7bddcbac90",
+            "Value": {
+                "id": "a9965e56-8283-48ca-bbea-5f60c80a6e61",
+                "resourcePath": "sprites\\s_porcupine_run\\s_porcupine_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3d887d1f-ac6c-4604-93cf-cd413c2fe083",
+            "Value": {
+                "id": "5e663672-2ab9-44d5-9356-a4b7562db24f",
+                "resourcePath": "views\\3d887d1f-ac6c-4604-93cf-cd413c2fe083.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3f6074ae-4c32-4b08-883e-1fee771498fc",
             "Value": {
                 "id": "64dadc42-16be-43f1-9fec-735685130dfc",
@@ -316,6 +332,14 @@
                 "id": "493cc6aa-c6a9-40fe-a84b-a83680c3536e",
                 "resourcePath": "scripts\\add_movement_maxspeed\\add_movement_maxspeed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "93a2eb8c-defa-467b-940c-02be81832dbc",
+            "Value": {
+                "id": "f7f89242-4b7a-4193-a1ef-aaefffe94c1c",
+                "resourcePath": "objects\\o_porcupine\\o_porcupine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
