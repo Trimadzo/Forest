@@ -5,6 +5,7 @@ if hurtbox_entity_can_be_hit_by(other)			// other è l'hitbox che sta colpendo q
 	alarm[0] = game_get_speed(gamespeed_fps / 4);
 	health_ -= other.damage_;
 	state_ = enemy.hit;
-	var _knockback_direction = point_direction(other.x, other.y, x, y)
+	var _knockback_direction = point_direction(other.x, other.y, x, y);
+	create_animation_effect(s_hit_effect, x, y-8, 1, true);
 	set_movement(_knockback_direction, other.knockback_);
 }
