@@ -1,10 +1,10 @@
 /// @description Move State
 image_speed = 0;
-var _x_input = keyboard_check(vk_right) - keyboard_check(vk_left);		// local variable, funziona solo all'interno di questo blocco di codice
-var _y_input = keyboard_check(vk_down) - keyboard_check_direct(vk_up);
+var _x_input = o_input.right_ - o_input.left_;		// local variable, funziona solo all'interno di questo blocco di codice
+var _y_input = o_input.down_ - o_input.up_;
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
-var _attack_input = keyboard_check_pressed(ord("X"));					// Deve essere x maiuscola
-var _roll_input = keyboard_check_pressed(ord("Z"));						// Deve essere z maiuscola
+var _attack_input = o_input.action_one_pressed_;					// Deve essere x maiuscola
+var _roll_input = o_input.action_two_pressed_;						// Deve essere z maiuscola
 roll_directions_ = direction_facing_ * 90;								// Quando è fermo
 
 if _x_input == 0 && _y_input == 0
