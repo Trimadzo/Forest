@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "23fb14a9-a775-420d-9b56-ffb284677dad",
+            "Value": {
+                "id": "adfa8434-deca-4170-bff6-72588092c654",
+                "resourcePath": "sprites\\s_player_attack_down\\s_player_attack_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "333fa96c-fae5-45c1-9234-78be7ee9800e",
             "Value": {
                 "id": "abb51dbc-c3b6-41e2-9828-ada3ca4e2457",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "85715c06-cd73-48d8-b2d6-e11296208083",
+            "Value": {
+                "id": "e0ef7bb3-e700-49cd-8751-270e27434c86",
+                "resourcePath": "sprites\\s_player_attack_right\\s_player_attack_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8855b31a-0b84-45b9-af18-d9787e98ef1b",
             "Value": {
                 "id": "cea716ff-7ff1-4794-9c11-6cedeb795795",
@@ -292,6 +308,14 @@
                 "id": "432ec8b2-98f0-4250-b9d7-9f0f5d301477",
                 "resourcePath": "scripts\\move_movement_entity\\move_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dcc66f4a-60e8-4f62-80c8-094fc665e86f",
+            "Value": {
+                "id": "59f9f301-e0e1-427f-92f6-2f478828ad68",
+                "resourcePath": "sprites\\s_player_attack_up\\s_player_attack_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

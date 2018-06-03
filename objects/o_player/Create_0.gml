@@ -6,7 +6,8 @@ direction_facing_ = dir.right;
 global.player_health = 4;					// è una global variable, sono accessibile ovunque all'interno del gioco
 
 enum player {
-	move
+	move,
+	sword
 }
 
 enum dir {									// è importante questo ordine perché se moltiplichiamo per 90 otteniamo le direzione di GameMaker
@@ -16,11 +17,18 @@ enum dir {									// è importante questo ordine perché se moltiplichiamo per 
 	down
 }
 
+state_ = player.move;
+
 // Sprite move lookup table
 sprite_[player.move,dir.right] = s_player_run_right;
 sprite_[player.move,dir.up] = s_player_run_up;
 sprite_[player.move,dir.left] = s_player_run_right;
 sprite_[player.move,dir.down] = s_player_run_down;
+
+sprite_[player.sword,dir.right] = s_player_attack_right;
+sprite_[player.sword,dir.up] = s_player_attack_up;
+sprite_[player.sword,dir.left] = s_player_attack_right;
+sprite_[player.sword,dir.down] = s_player_attack_down;
 
 //inventory_[0] = "sword";					// array 1D chiamato inventory_ alla cui posizione 0 ha "sword"
 //inventory_[1] = "potion";
