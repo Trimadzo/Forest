@@ -7,7 +7,8 @@
         "509d5cd6-0ef0-4e8d-8043-70629e2f651a",
         "cc654e97-3d7b-4e05-80c8-f30865a80c52",
         "cd0d586a-88a7-4dcb-8597-47ff8296d181",
-        "2a6aab23-4d61-4a3e-a969-be0d73b24be4"
+        "2a6aab23-4d61-4a3e-a969-be0d73b24be4",
+        "8b7b2d7a-5c8f-49da-a2ac-a27d7dbc2aa8"
     ],
     "filterType": "GMSound",
     "folderName": "sounds",
