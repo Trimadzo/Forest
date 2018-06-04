@@ -8,4 +8,5 @@ if hurtbox_entity_can_be_hit_by(other)
 	set_movement(_direction, other.knockback_);
 	state_ = player.hit;
 	// event_user(state_);		// chiamiamo subito lo state, altrimenti c'è un delay
+	audio_play_sound(a_hurt, 6, false);
 }

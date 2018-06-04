@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "2a6aab23-4d61-4a3e-a969-be0d73b24be4",
+            "Value": {
+                "id": "162e7f45-9519-4f8a-ba53-6887c6bc246a",
+                "resourcePath": "sounds\\a_porcupine_attack\\a_porcupine_attack.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2da19cab-2d6c-41b4-b890-13770063630a",
             "Value": {
                 "id": "60d85cd9-b2b3-44e8-a8b4-f30f889a5db4",
@@ -220,6 +228,14 @@
                 "id": "09e16fc6-9fc4-4772-98c6-f42ee74dbd13",
                 "resourcePath": "views\\4e081210-46a4-4f7a-9d55-782b3b95c467.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "509d5cd6-0ef0-4e8d-8043-70629e2f651a",
+            "Value": {
+                "id": "c08a1292-708f-447f-b979-183a3aae0c3c",
+                "resourcePath": "sounds\\a_hit\\a_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -535,11 +551,27 @@
             }
         },
         {
+            "Key": "cc654e97-3d7b-4e05-80c8-f30865a80c52",
+            "Value": {
+                "id": "dbd0db97-a5ed-4e42-9592-10181d0291a6",
+                "resourcePath": "sounds\\a_swipe\\a_swipe.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "ad749bbd-15a0-4302-a289-caa421808be6",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd0d586a-88a7-4dcb-8597-47ff8296d181",
+            "Value": {
+                "id": "2fa03eae-f7cb-4865-b2af-8e65e898ac08",
+                "resourcePath": "sounds\\a_hurt\\a_hurt.yy",
+                "resourceType": "GMSound"
             }
         },
         {

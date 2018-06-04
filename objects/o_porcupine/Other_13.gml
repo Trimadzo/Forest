@@ -8,6 +8,7 @@ if animation_hit_frame(1)
 	var _knockback = 4;
 	var _life = 1;
 	create_hitbox(s_porcupine_hitbox, x, y-8, 0, _life, [o_player], _damage, _knockback);
+	audio_play_sound(a_porcupine_attack, 5, false);
 }
 
 if animation_hit_frame(image_number - 1)
