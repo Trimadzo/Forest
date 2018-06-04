@@ -2,7 +2,7 @@ if health_ <= 0 exit;
 if hurtbox_entity_can_be_hit_by(other)			// other è l'hitbox che sta colpendo questo oggetto
 {
 	invincible_ = true;
-	alarm[0] = game_get_speed(gamespeed_fps / 4);
+	alarm[0] = global.one_second * 0.25;
 	health_ -= other.damage_;
 	state_ = enemy.hit;
 	var _knockback_direction = point_direction(other.x, other.y, x, y);
