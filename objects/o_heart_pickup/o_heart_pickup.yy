@@ -2,7 +2,7 @@
     "id": "b0fc4e14-b947-4da2-9299-5799ca2ceaa4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_hearth_pickup",
+    "name": "o_heart_pickup",
     "eventList": [
         {
             "id": "10fc83f6-e2a3-40ef-9826-9b69c8f6b064",
