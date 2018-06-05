@@ -48,6 +48,11 @@ sprite_[player.hit,dir.up] = s_player_run_up;
 sprite_[player.hit,dir.left] = s_player_run_right;
 sprite_[player.hit,dir.down] = s_player_run_down;
 
+sprite_[player.bomb,dir.right] = s_player_run_right;
+sprite_[player.bomb,dir.up] = s_player_run_up;
+sprite_[player.bomb,dir.left] = s_player_run_right;
+sprite_[player.bomb,dir.down] = s_player_run_down;
+
 //inventory_[0] = "sword";					// array 1D chiamato inventory_ alla cui posizione 0 ha "sword"
 //inventory_[1] = "potion";
 //inventory_[2] = "spell";
