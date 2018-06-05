@@ -3,8 +3,6 @@ image_speed = 0;
 var _x_input = o_input.right_ - o_input.left_;		// local variable, funziona solo all'interno di questo blocco di codice
 var _y_input = o_input.down_ - o_input.up_;
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
-var _attack_input = o_input.action_one_pressed_;					// Deve essere x maiuscola
-var _roll_input = o_input.action_two_pressed_;						// Deve essere z maiuscola
 roll_directions_ = direction_facing_ * 90;								// Quando è fermo
 
 if _x_input == 0 && _y_input == 0
@@ -25,16 +23,7 @@ else
 	roll_directions_ = direction_facing_ * 90;
 }
 
-if _attack_input == true 
-{
-	image_index = 0;
-	state_ = player.sword;
-}
-
-if _roll_input == true
-{
-	image_index = 0;
-	state_ = player.evade;
-}
+inventory_use_item(o_input.action_one_pressed_, global.item[0]);
+inventory_use_item(o_input.action_two_pressed_, global.item[1]);
 
 move_movement_entity(false);
