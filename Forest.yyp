@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "37b2809d-c866-4ac9-92b8-c5156851ee1b",
+            "Value": {
+                "id": "646d84fe-43fe-417a-94f5-f615dd2410d0",
+                "resourcePath": "scripts\\inventory_add_item\\inventory_add_item.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3855d6bf-9f6b-4196-82df-5b7bddcbac90",
             "Value": {
                 "id": "a9965e56-8283-48ca-bbea-5f60c80a6e61",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "6efd9f60-87e3-4f6f-b6d9-07f1a1a00182",
+            "Value": {
+                "id": "8e1bbde3-3207-404c-a513-6de1bd6b0b0b",
+                "resourcePath": "scripts\\array_find_index\\array_find_index.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6fe77910-ec46-4ebd-bd5c-f53f96e3a063",
             "Value": {
                 "id": "e8567a8a-3af4-4d15-80d1-ab1efa2359a4",
@@ -644,6 +660,14 @@
                 "id": "509747c2-00f4-437c-99de-8b6a44915b0e",
                 "resourcePath": "sprites\\s_start_position\\s_start_position.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e2e470c-bad8-4369-bdd9-d658c54c187c",
+            "Value": {
+                "id": "386b441c-8a20-4241-8e22-5fb278386dda",
+                "resourcePath": "scripts\\inventory_create\\inventory_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -807,6 +831,14 @@
             }
         },
         {
+            "Key": "dbe0f905-9e51-41e7-a919-f0367c41d6a8",
+            "Value": {
+                "id": "56f018ba-fa4a-4be3-b3aa-4680b8886ad6",
+                "resourcePath": "views\\dbe0f905-9e51-41e7-a919-f0367c41d6a8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dcc66f4a-60e8-4f62-80c8-094fc665e86f",
             "Value": {
                 "id": "59f9f301-e0e1-427f-92f6-2f478828ad68",
@@ -960,7 +992,10 @@
         "60cd0fb3-1a56-4b7d-9d7d-891dbfab609c",
         "22cfb3d6-cf49-4546-84e9-61a08a53ad46",
         "b6cc7288-b270-463c-9d4c-b2c24bfeaa26",
-        "0f352f4c-6231-4cba-9cea-c04b62edc051"
+        "6efd9f60-87e3-4f6f-b6d9-07f1a1a00182",
+        "0f352f4c-6231-4cba-9cea-c04b62edc051",
+        "9e2e470c-bad8-4369-bdd9-d658c54c187c",
+        "37b2809d-c866-4ac9-92b8-c5156851ee1b"
     ],
     "tutorial": ""
 }
