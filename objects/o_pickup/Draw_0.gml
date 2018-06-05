@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, image_index, x, y + z_);		// aggiungiamo z perché sembra sia più in alto
