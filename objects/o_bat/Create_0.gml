@@ -1,5 +1,7 @@
 event_inherited();
 initialize_movement_entity(0.25, 0.5, o_solid);
+max_health_ = 1;
+health_ = max_health_;
 
 enum bat
 {

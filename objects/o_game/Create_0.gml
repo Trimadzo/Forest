@@ -5,14 +5,14 @@ var _font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567
 global.font = font_add_sprite_ext(s_font, _font_string, true, 1);
 draw_set_font(global.font);
 
-global.player_max_health = 4;		// è una variabile globale, sono accessibili ovunque all'interno del gioco
+global.player_max_health = 6;		// è una variabile globale, sono accessibili ovunque all'interno del gioco
 global.player_health = global.player_max_health;		
-global.player_max_stamina = 3;
+global.player_max_stamina = 4;
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0;
 global.player_start_position = i_game_start;
 
-// audio_play_sound(a_music, 10, true);
+audio_play_sound(a_proclaimers_500_miles, 10, true);
 var _view_width = camera_get_view_width(view_camera[0]);
 var _view_height = camera_get_view_height(view_camera[0]);
 display_set_gui_size(_view_width, _view_height);
