@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "9b195039-566e-4eb1-9043-381024f3aa23",
+            "Value": {
+                "id": "9426838d-0b52-4fda-878b-5aff6b4ac221",
+                "resourcePath": "rooms\\r_maze\\r_maze.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9b4c0fab-5e53-4052-8b17-35f1a553aaf7",
             "Value": {
                 "id": "509747c2-00f4-437c-99de-8b6a44915b0e",
