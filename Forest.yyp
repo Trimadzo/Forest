@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00ba522a-a66b-4d75-ac97-9bcc757faabf",
+            "Value": {
+                "id": "8951590e-0b5e-4c00-8bf4-91260641bde9",
+                "resourcePath": "sprites\\s_zolda_meh_full\\s_zolda_meh_full.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00f9272d-67e1-437a-95c6-5b522d9aa5c8",
             "Value": {
                 "id": "d34daf23-25be-43db-8159-145f050555c9",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "27cf57e2-3473-428d-b816-2d69602af166",
+            "Value": {
+                "id": "cb0db147-8029-421a-a937-7baab33e055f",
+                "resourcePath": "objects\\o_title_ui\\o_title_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29f757cc-11c5-4a8d-992a-3dec686db096",
             "Value": {
                 "id": "7ed4b167-96a1-4357-8906-a834b30c4dfd",
@@ -340,6 +356,14 @@
                 "id": "054d6fc6-1049-4fb4-92bd-60b2c85d0c0c",
                 "resourcePath": "objects\\o_game\\o_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b156ce5-7f13-4923-adf4-19685836e590",
+            "Value": {
+                "id": "09e190ad-8128-4128-ad6c-f91a6fc0deea",
+                "resourcePath": "sprites\\s_title_card\\s_title_card.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "aa1039f8-285f-410d-b4a8-5e734fdb2a2b",
+            "Value": {
+                "id": "b0fea571-8614-41b1-8eb9-a713245ed876",
+                "resourcePath": "views\\7db23c7b-d19b-4250-ab91-fe4219e7affa-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "aa259c0d-f27d-4bb6-89b6-38f3217879c1",
             "Value": {
                 "id": "fddeac5c-88d3-4ff0-940c-4e8bbcbf47dc",
@@ -1164,6 +1196,14 @@
                 "id": "f831e225-93ff-48b2-88a4-59db8e3a0198",
                 "resourcePath": "objects\\o_enemy\\o_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f237f2a5-0fc5-4dfc-adf8-074b33bf17af",
+            "Value": {
+                "id": "27a4b95a-ce67-47b4-83a6-8148a2867628",
+                "resourcePath": "rooms\\r_title\\r_title.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -1,1 +1,1 @@
-room_goto(r_start);
+room_goto(r_title);
