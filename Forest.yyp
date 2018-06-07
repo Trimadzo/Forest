@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "63ff47b9-1233-4f6f-a34b-022f4b8e1b26",
+            "Value": {
+                "id": "e4ed4d8c-6a76-4f76-8ea9-eca7edece281",
+                "resourcePath": "scripts\\add_to_destroyed_list\\add_to_destroyed_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "644b46d3-1e1c-49a8-a144-9df6241f9df8",
             "Value": {
                 "id": "a457f2a6-2742-46a5-a64d-8ed66fc50459",
@@ -895,6 +903,14 @@
             }
         },
         {
+            "Key": "af98c5ad-a016-4567-a11a-12dcdbb8d494",
+            "Value": {
+                "id": "f43bb1bf-1776-4261-b4c9-ef96ef4dcae7",
+                "resourcePath": "sprites\\s_bush_effect\\s_bush_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0fc4e14-b947-4da2-9299-5799ca2ceaa4",
             "Value": {
                 "id": "c800d724-196d-4f83-a528-c0f649a8c4a3",
@@ -967,6 +983,14 @@
             }
         },
         {
+            "Key": "cc53a032-e29d-4723-9584-67504de515eb",
+            "Value": {
+                "id": "5372ea4c-f7a0-4633-8c0e-1e7b03b5541e",
+                "resourcePath": "sprites\\s_bush\\s_bush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc654e97-3d7b-4e05-80c8-f30865a80c52",
             "Value": {
                 "id": "dbd0db97-a5ed-4e42-9592-10181d0291a6",
@@ -996,6 +1020,14 @@
                 "id": "89bc8a37-2ff2-4471-95e7-2cbc62d3d436",
                 "resourcePath": "objects\\o_start_position\\o_start_position.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d2abd54c-f8a9-4b1f-b4ff-2cdfafdd6ac2",
+            "Value": {
+                "id": "c5d2482d-7310-40e2-bf8a-e27a7793cb13",
+                "resourcePath": "scripts\\is_in_destroyed_list\\is_in_destroyed_list.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1175,6 +1207,14 @@
             }
         },
         {
+            "Key": "f43c0d25-1924-4161-ac56-aeca9676834b",
+            "Value": {
+                "id": "8087b580-2370-40fa-aec8-dab6b92fb99f",
+                "resourcePath": "objects\\o_bush\\o_bush.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f57abf5a-e986-45e9-b6bf-5f838626dea8",
             "Value": {
                 "id": "465f9a3b-a9b8-4853-815f-8e9eacb31768",
@@ -1279,7 +1319,9 @@
         "37b2809d-c866-4ac9-92b8-c5156851ee1b",
         "c33e8e67-84ab-4ebd-8e65-a40d61b044e8",
         "2bbdc053-75d0-4916-92bc-2aa7d8f4a8f5",
-        "f32e8d73-ca48-4287-a7f2-db1882f5e941"
+        "f32e8d73-ca48-4287-a7f2-db1882f5e941",
+        "63ff47b9-1233-4f6f-a34b-022f4b8e1b26",
+        "d2abd54c-f8a9-4b1f-b4ff-2cdfafdd6ac2"
     ],
     "tutorial": ""
 }
