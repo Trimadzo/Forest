@@ -7,6 +7,8 @@ direction_facing_ = dir.right;
 roll_directions_ = 0;
 roll_speed_ = 2;
 
+alarm[1] = global.one_second;				// altrimenti se carichiamo partita la stamina non aumenta subito in automatico
+
 enum player {
 	move,
 	sword,
