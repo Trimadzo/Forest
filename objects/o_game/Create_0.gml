@@ -12,6 +12,9 @@ global.player_max_stamina = 4;
 global.player_stamina = global.player_max_stamina;
 global.player_gems = 0;
 global.player_start_position = i_game_start;
+global.start_x = noone;
+global.start_y = noone;
+global.load = false;
 
 // audio_play_sound(a_proclaimers_500_miles, 10, true);
 var _view_width = camera_get_view_width(view_camera[0]);
