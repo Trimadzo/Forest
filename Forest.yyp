@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05fa4570-bf51-4871-87ba-40bc5d91048f",
+            "Value": {
+                "id": "041ed5e1-38c0-409e-880e-c236930bf3bf",
+                "resourcePath": "objects\\o_bow_item\\o_bow_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "075a4f0c-e9de-41cf-b95b-fc688c3ddc0b",
             "Value": {
                 "id": "b7d8c590-3adc-4e23-9d58-929b2ec0e25c",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "5a4928fc-e5a9-4b84-8a1b-f15e62e4d642",
+            "Value": {
+                "id": "42e78930-0163-481d-b4d1-c86dbe62126e",
+                "resourcePath": "sprites\\s_player_bow_down\\s_player_bow_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ddce7be-ba46-48ab-89f7-cb0c823b2eb9",
             "Value": {
                 "id": "74784edf-15b0-48bf-9d04-6f871ff381b5",
@@ -564,6 +580,14 @@
                 "id": "d770ccc0-f44a-4882-8a5c-6ff3c107e5f1",
                 "resourcePath": "sounds\\a_stinger\\a_stinger.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5e99f099-1be5-46c4-a5dc-53b7905a7e98",
+            "Value": {
+                "id": "0bd8ea41-c05b-47b6-a3dc-ac67567f6db0",
+                "resourcePath": "sprites\\s_arrow_hit_effect\\s_arrow_hit_effect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "90e01613-e92f-477e-b7a1-d7870d50f41e",
+            "Value": {
+                "id": "3ec6c56e-d3d2-4b89-972a-434388eb9ff4",
+                "resourcePath": "objects\\o_arrow\\o_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "91d9ee4a-832a-4964-b300-b17d0809c828",
             "Value": {
                 "id": "ebf7cd01-484d-4b23-88fa-52d44ecbb51a",
@@ -1079,6 +1111,14 @@
             }
         },
         {
+            "Key": "b2b3e0c1-31ea-4fe0-a2f6-4a6f7720730a",
+            "Value": {
+                "id": "ae26b276-b83f-4d1b-8a27-2b8039c46fac",
+                "resourcePath": "sprites\\s_bow_item\\s_bow_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6cc7288-b270-463c-9d4c-b2c24bfeaa26",
             "Value": {
                 "id": "30d852bf-426d-4550-9001-645aa9f59197",
@@ -1164,6 +1204,14 @@
                 "id": "89bc8a37-2ff2-4471-95e7-2cbc62d3d436",
                 "resourcePath": "objects\\o_start_position\\o_start_position.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d0dea845-fdc5-4889-a392-0348087b2791",
+            "Value": {
+                "id": "f85b1d79-242d-424e-96c6-998e06408d97",
+                "resourcePath": "sprites\\s_player_bow_right\\s_player_bow_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1279,6 +1327,14 @@
             }
         },
         {
+            "Key": "e1f74d04-40d1-4d14-b188-69d32bb45e73",
+            "Value": {
+                "id": "99b97378-c8d7-4e5f-af05-098e2580549a",
+                "resourcePath": "sprites\\s_arrow\\s_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9ce43d7-2dbc-4aa6-9814-b2d245c03af1",
             "Value": {
                 "id": "1af5de7e-c017-44b0-8514-d9e857618eda",
@@ -1380,6 +1436,14 @@
                 "id": "8087b580-2370-40fa-aec8-dab6b92fb99f",
                 "resourcePath": "objects\\o_bush\\o_bush.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f4cdfabb-5d31-419b-8e56-5580d366d354",
+            "Value": {
+                "id": "022bb772-92bb-4d64-9e00-7a6bb08313b8",
+                "resourcePath": "sprites\\s_player_bow_up\\s_player_bow_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

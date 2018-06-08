@@ -32,3 +32,4 @@ item_index_ = 0;
 
 inventory_create(6);
 inventory_add_item(o_ring_item);
+inventory_add_item(o_bow_item);

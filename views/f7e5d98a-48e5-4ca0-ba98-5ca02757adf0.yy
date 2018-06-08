@@ -9,7 +9,8 @@
         "71ac2932-d067-4845-87bb-8ed6ebccd37f",
         "72209cca-8527-456d-b33b-5f3cdbb1c604",
         "8fca838f-b0da-4340-8235-436cf8b4381a",
-        "af98c5ad-a016-4567-a11a-12dcdbb8d494"
+        "af98c5ad-a016-4567-a11a-12dcdbb8d494",
+        "5e99f099-1be5-46c4-a5dc-53b7905a7e98"
     ],
     "filterType": "GMSprite",
     "folderName": "Effect Sprites",

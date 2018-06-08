@@ -51,6 +51,11 @@ sprite_[player.hit,dir.up] = s_player_run_up;
 sprite_[player.hit,dir.left] = s_player_run_right;
 sprite_[player.hit,dir.down] = s_player_run_down;
 
+sprite_[player.bow,dir.right] = s_player_bow_right;
+sprite_[player.bow,dir.up] = s_player_bow_up;
+sprite_[player.bow,dir.left] = s_player_bow_right;
+sprite_[player.bow,dir.down] = s_player_bow_down;
+
 sprite_[player.found_item,dir.right] = s_player_found_item;
 sprite_[player.found_item,dir.up] = s_player_found_item;
 sprite_[player.found_item,dir.left] = s_player_found_item;
