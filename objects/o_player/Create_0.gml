@@ -6,6 +6,7 @@ max_speed_ = 1.5;
 direction_facing_ = dir.right;
 roll_directions_ = 0;
 roll_speed_ = 2;
+found_item_sprite_ = noone;
 
 alarm[1] = global.one_second;				// altrimenti se carichiamo partita la stamina non aumenta subito in automatico
 
@@ -50,10 +51,17 @@ sprite_[player.hit,dir.up] = s_player_run_up;
 sprite_[player.hit,dir.left] = s_player_run_right;
 sprite_[player.hit,dir.down] = s_player_run_down;
 
+sprite_[player.found_item,dir.right] = s_player_found_item;
+sprite_[player.found_item,dir.up] = s_player_found_item;
+sprite_[player.found_item,dir.left] = s_player_found_item;
+sprite_[player.found_item,dir.down] = s_player_found_item;
+
 sprite_[player.bomb,dir.right] = s_player_run_right;
 sprite_[player.bomb,dir.up] = s_player_run_up;
 sprite_[player.bomb,dir.left] = s_player_run_right;
 sprite_[player.bomb,dir.down] = s_player_run_down;
+
+
 
 //inventory_[0] = "sword";					// array 1D chiamato inventory_ alla cui posizione 0 ha "sword"
 //inventory_[1] = "potion";
