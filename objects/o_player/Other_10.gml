@@ -23,7 +23,7 @@ else
 	roll_directions_ = direction_facing_ * 90;
 }
 
-inventory_use_item(o_input.action_one_pressed_, global.item[0]);
-inventory_use_item(o_input.action_two_pressed_, global.item[1]);
+inventory_use_item(o_input.action_one_pressed_, global.item[0], action.one);
+inventory_use_item(o_input.action_two_pressed_, global.item[1], action.two);
 
 move_movement_entity(false);

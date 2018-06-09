@@ -1,7 +1,9 @@
 /// @arg input
 /// @arg item
+/// @arg action
 var _input = argument0;
 var _item = argument1;
+var _action = argument2;
 
 if _input
 {
@@ -18,6 +20,7 @@ if _input
 		else if instance_exists(_item) && global.player_stamina >= _item.cost_
 		{
 			state_ = _item.action_;
+			action_ = _action;
 			global.player_stamina = max(0, global.player_stamina-_item.cost_);
 			alarm[1] = global.one_second;
 			image_index = 0;

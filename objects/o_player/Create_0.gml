@@ -10,7 +10,8 @@ found_item_sprite_ = noone;
 
 alarm[1] = global.one_second;				// altrimenti se carichiamo partita la stamina non aumenta subito in automatico
 
-enum player {
+enum player
+{
 	move,
 	sword,
 	evade,
@@ -20,15 +21,23 @@ enum player {
 	hit
 }
 
-enum dir {									// è importante questo ordine perché se moltiplichiamo per 90 otteniamo le direzione di GameMaker
+enum dir
+{									// è importante questo ordine perché se moltiplichiamo per 90 otteniamo le direzione di GameMaker
 	right,
 	up,
 	left,
 	down
 }
 
-starting_state_ = player.move;
+enum action
+{
+	one,
+	two
+}
+
 state_ = player.move;
+starting_state_ = player.move;
+action_ = noone;
 
 // Sprite move lookup table
 sprite_[player.move,dir.right] = s_player_run_right;
