@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "23d02bd6-0221-480f-9b10-221bd43ed4a4",
+            "Value": {
+                "id": "23f990a2-37bd-4ec4-ad77-8213fd556f06",
+                "resourcePath": "objects\\o_diamond_pickup\\o_diamond_pickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23fb14a9-a775-420d-9b56-ffb284677dad",
             "Value": {
                 "id": "adfa8434-deca-4170-bff6-72588092c654",
@@ -948,6 +956,14 @@
                 "id": "f7f89242-4b7a-4193-a1ef-aaefffe94c1c",
                 "resourcePath": "objects\\o_porcupine\\o_porcupine.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "93f2b292-5dec-49cb-afde-21d9304a0db0",
+            "Value": {
+                "id": "0fdf8f04-a614-4ed7-80ac-d2e1a78140a4",
+                "resourcePath": "sprites\\s_diamond\\s_diamond.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
