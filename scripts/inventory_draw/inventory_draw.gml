@@ -22,9 +22,9 @@ for (var _i = 0; _i < _array_size; _i++)
 		draw_sprite(s_pause_cursor, image_index/8, _box_x, _box_y);
 		if instance_exists(_item)
 		{
-			draw_text(_x+4, _y+36, _item.description_);
+			draw_text(_x+100, _y+80, _item.description_);
 			var _description_height = string_height(_item.description_);
-			draw_text(_x+4, _y+48+_description_height, "Costo in stamina: "+string(_item.cost_));
+			draw_text(_x+100, _y+92+_description_height, "Costo in stamina: "+string(_item.cost_));
 		}
 	}
 }
