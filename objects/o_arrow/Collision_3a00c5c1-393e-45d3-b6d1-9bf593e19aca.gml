@@ -1,3 +1,12 @@
+// Exception for depth
+if image_angle == 0 or image_angle = 180
+{
+	if y < other.bbox_top + 5 
+	{
+		exit;
+	}
+}
+
 var _arrow_hit = instance_create_layer(x, y-7, "Instances", o_arrow_hit);
 _arrow_hit.image_angle = image_angle;
 with (_arrow_hit)
